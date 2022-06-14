@@ -103,8 +103,12 @@
     list-style-type: none;
 }
 .footer{
-    
+    background-color: #ffadad;
 }
+.footer img{
+    height: 25px;
+}
+
 @keyframes colores {
     0% {
         background-color: #07beb8;
@@ -186,7 +190,7 @@
         "footer footer footer footer";
     }
     .imagenes{
-        height: 220px;
-        width: 260px;
+        height: 100px;
+        width: 150px;
     }
 }
