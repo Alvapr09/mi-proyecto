@@ -50,7 +50,9 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .fotos {
     display: flex;
     justify-content: space-evenly;
@@ -85,7 +87,21 @@
 .footer p{
     padding-left: 5px;
     padding-top: 90px;
-    font-size: 10px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+}
+.newsletter p{
+    padding: 0%;
+    font-size: medium;
+}
+.newsletter input{
+    
 }
 /* Grids */
 .grids {
