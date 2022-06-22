@@ -1,0 +1,28 @@
+.imgcarousel{
+    width: 500px;
+    height: 500px;
+}
+.carousel{
+    padding: 1rem;
+    width: 1207px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    h1{
+        padding-top: 1rem;
+    }
+    div{
+        div{
+            h5{
+                background-color: rgba(0, 0, 0, 0.507);
+                font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+            }
+            p{
+                background-color: rgba(0, 0, 0, 0.507);
+                font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+            }
+        }
+    }
+}
