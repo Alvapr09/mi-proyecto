@@ -9,13 +9,18 @@
 
 .carousel {
   padding: 1rem;
-  width: 1207px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center; }
 
-main h1 {
-  padding-top: 1rem; }
+nav ul li a {
+  text-decoration: none;
+  color: #fdfdfd; }
+
+main section p a {
+  text-decoration: none;
+  color: white; }
 
 main div div h5 {
   background-color: rgba(0, 0, 0, 0.507);
@@ -48,6 +53,29 @@ main div div p {
     border: white solid 3px; }
     .nav li:hover {
       transform: scale(1.15); }
+
+main section {
+  background-color: #ffc8dd;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, serif; }
+
+.card {
+  display: flex;
+  height: 100%;
+  width: 100%; }
+
+.card-img-top {
+  height: 273px; }
+
+.card-img-top-otras {
+  height: 250px; }
+
+.card-img-top-baberos {
+  height: 250px; }
+
+.card-body {
+  background-color: #d0f4de;
+  font-family: Lucida Sans; }
 
 .img {
   height: 130px;
@@ -104,17 +132,6 @@ main div div p {
 /* Cambios para bootstrap */
 .row {
   padding: 15px; }
-
-.card {
-  display: flex;
-  height: 50px;
-  width: 250px; }
-
-.card-img-top-otras {
-  height: 226px; }
-
-.card-img-top, .card-img-top-baberos {
-  height: 250px; }
 
 /* Subi tu diseño html */
 .p-std {
@@ -187,7 +204,7 @@ main div div p {
     height: 500px; }
   .carousel {
     padding-top: 2rem;
-    width: 765px; }
+    width: 100%; }
   .nav {
     display: flex;
     flex-direction: column; }
@@ -220,7 +237,7 @@ main div div p {
     height: 500px; }
   .carousel {
     padding-top: 2rem;
-    width: 425px; }
+    width: 100%; }
   .imagenes {
     display: flex;
     justify-content: center;
@@ -238,7 +255,7 @@ main div div p {
     height: 500px; }
   .carousel {
     padding-top: 2rem;
-    width: 375px; }
+    width: 100%; }
   .imagenes {
     display: flex;
     justify-content: center;

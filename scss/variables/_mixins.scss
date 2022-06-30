@@ -1,0 +1,4 @@
+@mixin cardstyle($colorfondo, $fuentetexto) {
+    background-color: $colorfondo;
+    font-family: $fuentetexto;
+}

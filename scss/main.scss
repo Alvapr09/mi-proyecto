@@ -5,7 +5,9 @@
   
   @import "./secciones/index";
   @import "./secciones/header";
-
+  @import "./variables/extend";
+  @import "./variables/mixins";
+  @import "./secciones/productos";
 
   .img {
     height: 130px;
@@ -85,20 +87,6 @@
   
   .row {
     padding: 15px;
-  }
-  
-  .card {
-    display: flex;
-    height: 50px;
-    width: 250px;
-  }
-  
-  .card-img-top-otras {
-    height: 226px;
-  }
-  
-  .card-img-top, .card-img-top-baberos {
-    height: 250px;
   }
   
   /* Subi tu diseño html */
@@ -213,7 +201,7 @@
     }
     .carousel{
         padding-top: 2rem;
-        width: 765px;
+        width: 100%;
     }
 
     .nav {
@@ -264,7 +252,7 @@
     }
     .carousel{
         padding-top: 2rem;
-        width: 425px;
+        width: 100%;
     }
   
     .imagenes {
@@ -289,7 +277,7 @@
     }
     .carousel{
         padding-top: 2rem;
-        width: 375px;
+        width: 100%;
     }
   
     .imagenes {
