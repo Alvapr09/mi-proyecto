@@ -98,30 +98,23 @@
   
   /* Grids */
   
-  .grids {
-    display: grid;
+  .grids {  display: grid;
     grid-template-columns: 1fr 1fr 1.1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.9fr 0.7fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "header nav nav nav" "main main main main" "main main main main" "main main main main" "footer footer footer footer";
+    grid-template-areas:
+      "header header header header"
+      "main main main main"
+      "footer footer footer footer";
   }
   
-  .footer {
-    grid-area: footer;
-  }
+  .main { grid-area: main; }
   
-  .main {
-    grid-area: main;
-  }
+  .footer { grid-area: footer; }
   
-  .header {
-    grid-area: header;
-  }
+  .header { grid-area: header; }
   
-  .nav {
-    grid-area: nav;
-  }
   
   /* Grids */
   
@@ -188,7 +181,7 @@
     .grids {
         grid-template-rows: 1fr 1fr 1fr;
       grid-template-areas: 
-      "header nav nav nav" 
+      "header header header header" 
       "main main main main" 
       "main main main main" 
       "main main main main" 
@@ -203,23 +196,6 @@
         padding-top: 2rem;
         width: 100%;
     }
-
-    .nav {
-      display: flex;
-      flex-direction: column;
-  
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-direction: column;
-      }
-  
-      li {
-        display: flex;
-      }
-    }
-  
     .main p {
       font-size: large;
     }
@@ -244,7 +220,11 @@
   /* Small screens */
   @media (max-width: 430px) {
     .grids {
-      grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "main main main main" "footer footer footer footer";
+      grid-template-areas: 
+      "header header header header"  
+      "main main main main" 
+      "main main main main" 
+      "footer footer footer footer";
     }
     .imgcarousel{
         width: 500px;
@@ -269,7 +249,11 @@
   }
   @media (max-width: 380px) {
     .grids {
-      grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "main main main main" "footer footer footer footer";
+      grid-template-areas: 
+      "header header header header"  
+      "main main main main" 
+      "main main main main" 
+      "footer footer footer footer";
     }
     .imgcarousel{
         width: 500px;

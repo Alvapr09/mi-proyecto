@@ -3,3 +3,18 @@
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
 }
+%estilolinks{
+    background-color: #ffc8dd;
+    color: rgb(0, 0, 0);
+    border: rgb(255, 255, 255) solid 3px;
+    margin: 15px;
+    padding: 15px;
+    &:hover{
+        transform: scale(1.15);
+    }
+}
+%estilobtn{
+    background-color: #e3bff8;
+    border: rgb(0, 0, 0) solid 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+}

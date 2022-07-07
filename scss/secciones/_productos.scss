@@ -14,5 +14,8 @@
     height: 250px;
   }
   .card-body{
-    @include cardstyle(#d0f4de, Lucida Sans);
+    @include cardstyle(#72f5a4, Lucida Sans);
+  }
+  .btn-style{
+    @extend %estilobtn;
   }
