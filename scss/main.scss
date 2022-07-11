@@ -178,7 +178,7 @@
   /* Responsive desing - Media query - Mobile Last */
   @media (max-width: 768px) {
     .grids {
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr;
       grid-template-areas: 
       "header header header header" 
       "main main main main" 
