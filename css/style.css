@@ -131,9 +131,6 @@ main div div {
     display: flex; }
   .footer li {
     list-style-type: none; }
-  .footer img {
-    padding: 5px;
-    height: 25px; }
   .footer p {
     padding-left: 5px;
     padding-top: 90px;
@@ -148,6 +145,10 @@ main div div {
   .newsletter p {
     padding: 0%;
     font-size: medium; }
+
+.logos-redes {
+  width: 45px;
+  height: 45px; }
 
 /* Cambios para bootstrap */
 .row {
@@ -165,7 +166,7 @@ main div div {
   grid-template-rows: 0.5fr 1.9fr 0.7fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer"; }
 
 .main {
   grid-area: main; }
@@ -231,9 +232,7 @@ main div div {
     display: flex;
     justify-content: center;
     padding: 10px;
-    width: 700px; }
-  .footer p {
-    padding-top: 110px; } }
+    width: 700px; } }
 
 /* Small screens */
 @media (max-width: 430px) {
@@ -250,9 +249,7 @@ main div div {
     justify-content: center;
     align-items: center;
     height: 170px;
-    width: 300px; }
-  .footer p {
-    padding-top: 180px; } }
+    width: 300px; } }
 
 @media (max-width: 380px) {
   .grids {
@@ -268,6 +265,4 @@ main div div {
     justify-content: center;
     align-items: center;
     height: 170px;
-    width: 300px; }
-  .footer p {
-    padding-top: 180px; } }
+    width: 300px; } }
